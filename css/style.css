@@ -1,0 +1,82 @@
+:root {
+    --color-primary: #16a085;
+    --color-secondary: #bd771b;
+    --color-accent: #521683;
+    --text-primary: #333333;
+    --text-secondary: #ffffff;
+
+
+
+
+  }
+  
+  body {
+    font-family: inter, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* body { background-color: var(--blue); }
+  
+  h2 { border-bottom: 2px solid var(--blue); }
+  
+  .container {
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 15px;
+  }
+  
+  button {
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    padding: 5px;
+  } */
+
+
+ul, li{
+    padding:0px;
+    margin: 0px;
+}
+
+
+a.navbar-brand.logo {
+    width: auto;
+    height: 90px;
+}
+
+a.navbar-brand.logo img {
+    width: auto;
+    height: 100%;
+}
+
+.header-contact-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+.header-contact-menu ul li {
+    padding: 10px 30px;
+}
+.header-contact-menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+li.header-franchise-btn {
+    background: var(--color-primary);
+    
+   
+}
+ul li.header-franchise-btn a {
+    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (min-width: 992px){
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: end;
+}
+}

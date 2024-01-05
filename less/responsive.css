@@ -1,0 +1,64 @@
+@media (min-width:320px) and (max-width:991px){
+    /* body {
+        background-color: yellow;
+    } */
+
+}
+
+@media (min-width:320px) and (max-width:767px){
+
+}
+
+@media (min-width:320px) and (max-width:690px){
+
+}
+
+@media (min-width:320px) and (max-width:575px){
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:768px) and (max-width:1024px){
+    /* body {
+        background-color: red;
+    } */
+
+}
+@media (min-width:1024px) and (max-width:1400px){
+    /* body {
+        background-color: rgb(43, 216, 37);
+    } */
+
+    
+    main .director-sc2 .profile-box2::after {     
+        left: 8%;
+    }
+    section.director-sc2:before {
+        left: 8%;
+        width: 84%;
+    }
+    .profile-box:after {       
+        right: 8%;
+
+    }
+    section.director-sc.sec-top-bottom:before {
+        right: 8%;
+        width: 84%;
+
+    }
+    
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+
+
+}
+
+@media (min-width: 1400px){
+
+
+}
